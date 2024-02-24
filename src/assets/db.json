@@ -1,0 +1,28 @@
+{
+  "Student": [
+    {
+      "id": "2ec2",
+      "img": "C:\\fakepath\\MY PHOTO.jpeg",
+      "firstName": "Nikhil",
+      "lastName": "Pachpawar",
+      "email": "nikhilpachpawar16@gmail.com",
+      "mobile": "+918605505903",
+      "age": 42,
+      "state": "Maharashtra",
+      "country": "India",
+      "address": "Bharat Colony  ,karve nagar"
+    },
+    {
+      "id": "323f",
+      "img": "C:\\fakepath\\3 Year income.jpeg",
+      "firstName": "Abhay",
+      "lastName": "Admane",
+      "email": "abhi@1gmail.com",
+      "mobile": "8797979873",
+      "age": 33,
+      "state": "Maharashtra",
+      "country": "India",
+      "address": "Risod"
+    }
+  ]
+}

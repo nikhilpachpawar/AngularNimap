@@ -1,0 +1,129 @@
+<!-- registration.component.html -->
+
+<form
+  class="registration-form"
+  [formGroup]="data"
+  (ngSubmit)="onSubmit()"
+  class="form-img"
+>
+  <!-- Image Upload -->
+  <div class="form-group">
+    <i class="fa fa-id-badge" aria-hidden="true"></i>
+    <input
+      formControlName="img"
+      type="file"
+      class="form-control-file"
+      id="image"
+      accept="image/*"
+    />
+  </div>
+
+  <!-- Right Side Content -->
+  <div class="right-content">
+    <!-- First Name and Last Name -->
+    <div class="form-row">
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input
+          type="text"
+          formControlName="firstName"
+          placeholder="Enter first name"
+        />
+        <label class="margin"></label>
+        <label>Last Name:</label>
+        <input
+          formControlName="lastName"
+          type="text"
+          id="lastName"
+          placeholder="Enter last name"
+        />
+      </div>
+    </div>
+
+    <!-- Email and Mobile Number -->
+    <div class="form-row">
+      <div class="form-group">
+        <label>Email:</label>
+        <input
+          formControlName="email"
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="Enter email"
+        />
+      </div>
+      <div class="form-group">
+        <label>Mobile Number:</label>
+        <input
+          formControlName="mobile"
+          type="tel"
+          class="form-control"
+          id="mobile"
+          placeholder="Enter mobile number"
+        />
+      </div>
+    </div>
+
+    <!-- Age -->
+    <div class="form-group">
+      <label class="margin">Age:</label>
+      20
+      <input
+        type="range"
+        formControlName="age"
+        id="age"
+        min="20"
+        max="80"
+        placeholder="Enter age"
+      />
+      80
+    </div>
+
+    <!-- State, Country, and Address -->
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label>State:</label>
+        <select class="form-select" formControlName="state">
+          <option selected>Select Your location</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Gujrat">Gujrat</option>
+          <option value="Telengana">Telengana</option>
+        </select>
+      </div>
+      <div class="form-group col-md-4">
+        <label>Country:</label>
+        <select class="form-select" formControlName="country">
+          <option selected>Select Your location</option>
+          <option value="India">India</option>
+          <option value="UK">UK</option>
+          <option value="Japan">Japan</option>
+        </select>
+      </div>
+      <div class="form-group col-md-4">
+        <label>Address:</label>
+        <input
+          formControlName="address"
+          type="text"
+          class="form-control"
+          id="address"
+          placeholder="Enter address"
+        />
+      </div>
+    </div>
+
+    <!-- Checkbox -->
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="newsletter" />
+      <label class="form-check-label" for="newsletter"
+        >Subscribe to newsletter</label
+      >
+    </div>
+
+    <!-- Submit and Reset Buttons -->
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-secondary">Reset</button>
+    <button type="reset" class="btn btn-primary" routerLink="/profile">
+      Profile
+    </button>
+  </div>
+</form>

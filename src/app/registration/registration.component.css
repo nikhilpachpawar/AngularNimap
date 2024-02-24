@@ -1,0 +1,42 @@
+/* registration.component.css */
+
+/* Style for form container */
+form {
+  max-width: 600px; /* Set maximum width for the form */
+  margin: auto; /* Center the form horizontally */
+  padding: 20px; /* Add padding around the form */
+}
+
+/* Style for form group */
+.form-group {
+  margin-bottom: 20px; /* Add spacing between form groups */
+}
+
+/* Style for form row */
+.form-row {
+  margin-bottom: 20px; /* Add spacing between form rows */
+}
+
+/* Style for input fields */
+.form-control {
+  width: 100%; /* Set width of input fields to 100% */
+}
+
+/* Style for checkbox */
+.form-check {
+  margin-bottom: 20px; /* Add spacing below the checkbox */
+}
+
+/* Style for submit and reset buttons */
+.btn-primary,
+.btn-secondary {
+  margin-right: 10px; /* Add spacing between buttons */
+}
+
+.margin {
+  margin-right: 10px;
+}
+
+.form-img {
+  background-color: burlywood;
+}

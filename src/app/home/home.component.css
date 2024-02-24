@@ -1,0 +1,54 @@
+.pic {
+  background-color: blanchedalmond;
+}
+.center-text {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.search-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+
+  width: 500px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.form-check {
+  margin-top: 10px;
+}
+.k {
+  margin-left: 40px;
+}
+.Register-Button {
+  padding: 10px 20px;
+  margin-left: 500px;
+  margin-top: 20px;
+  background-color: blue;
+}
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+.content2 {
+  text-align: center;
+}
+.Find-Button {
+  padding: 10px 20px;
+  margin-left: 550px;
+  margin-top: 20px;
+}
+.all {
+  background-color: aqua;
+}
